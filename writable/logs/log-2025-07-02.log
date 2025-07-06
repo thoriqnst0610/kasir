@@ -1,0 +1,65 @@
+ERROR - 2025-07-02 07:33:42 --> maaf cookie kosong
+ERROR - 2025-07-02 07:33:48 --> maaf cookie kosong
+CRITICAL - 2025-07-02 08:00:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: meja]
+in APPPATH\Views\Admin\meja.php on line 79.
+ 1 APPPATH\Views\Admin\meja.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/meja', [], true)
+ 5 APPPATH\Controllers\MejaController.php(14): view('Admin/meja')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MejaController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-02 08:02:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: meja]
+in APPPATH\Views\Admin\meja.php on line 79.
+ 1 APPPATH\Views\Admin\meja.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/meja', [], true)
+ 5 APPPATH\Controllers\MejaController.php(14): view('Admin/meja')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MejaController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-02 08:02:16 --> ErrorException: Undefined variable $data
+[Method: GET, Route: meja]
+in APPPATH\Views\Admin\meja.php on line 79.
+ 1 APPPATH\Views\Admin\meja.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/meja', [], true)
+ 5 APPPATH\Controllers\MejaController.php(14): view('Admin/meja')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MejaController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-02 08:02:50 --> ErrorException: Undefined variable $data
+[Method: GET, Route: meja]
+in APPPATH\Views\Admin\meja.php on line 79.
+ 1 APPPATH\Views\Admin\meja.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\meja.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/meja', [], true)
+ 5 APPPATH\Controllers\MejaController.php(14): view('Admin/meja')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MejaController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-02 10:14:18 --> maaf cookie kosong
+ERROR - 2025-07-02 10:14:25 --> maaf cookie kosong
+ERROR - 2025-07-02 10:30:07 --> no meja tidak boleh kosong

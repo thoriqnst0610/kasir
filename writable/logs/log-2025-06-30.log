@@ -1,0 +1,15 @@
+ERROR - 2025-06-30 07:11:04 --> maaf cookie kosong
+CRITICAL - 2025-06-30 07:11:04 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/dashboard" cannot be found.
+[Method: POST, Route: login]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/dashboard')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(30): redirect('/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->loginPost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-06-30 07:17:47 --> maaf cookie kosong

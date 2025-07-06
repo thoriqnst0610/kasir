@@ -1,0 +1,187 @@
+CRITICAL - 2025-07-05 10:11:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Home.php(108): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-05 10:14:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin/dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(40): view('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:19:44 --> data tidak boleh kosong
+ERROR - 2025-07-05 10:22:01 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:22:01 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:23:15 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:23:15 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:23:17 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:23:17 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:23:18 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:23:18 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:23:24 --> maaf cookie kosong
+ERROR - 2025-07-05 10:23:28 --> maaf cookie kosong
+ERROR - 2025-07-05 10:23:46 --> maaf cookie kosong
+ERROR - 2025-07-05 10:24:07 --> maaf cookie kosong
+ERROR - 2025-07-05 10:24:22 --> maaf cookie kosong
+ERROR - 2025-07-05 10:24:50 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:24:50 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:24:55 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:24:55 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:24:57 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:24:57 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:25:02 --> akun tidak ditemukan
+CRITICAL - 2025-07-05 10:25:02 --> ErrorException: Trying to access array offset on value of type bool
+[Method: GET, Route: akun]
+in APPPATH\Views\Admin\akun.php on line 15.
+ 1 APPPATH\Views\Admin\akun.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/akun', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('Admin/akun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->ambilAkun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:26:28 --> maaf cookie kosong
+ERROR - 2025-07-05 10:26:35 --> maaf cookie kosong
+CRITICAL - 2025-07-05 10:29:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin/dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(40): view('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-05 10:30:02 --> maaf cookie kosong
+ERROR - 2025-07-05 10:30:12 --> maaf cookie kosong
+ERROR - 2025-07-05 10:30:12 --> maaf cookie kosong
+ERROR - 2025-07-05 10:31:33 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:09 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:16 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:16 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:23 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:23 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:29 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:32 --> maaf cookie kosong
+ERROR - 2025-07-05 10:34:39 --> maaf cookie kosong

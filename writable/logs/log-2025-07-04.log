@@ -1,0 +1,99 @@
+ERROR - 2025-07-04 02:50:05 --> maaf cookie kosong
+ERROR - 2025-07-04 03:27:07 --> maaf cookie kosong
+CRITICAL - 2025-07-04 03:28:42 --> Error: Call to a member function getRandomName() on null
+[Method: POST, Route: tambahMenu]
+in APPPATH\Controllers\MenuController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->menambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-04 03:33:39 --> Error: Call to a member function getRandomName() on null
+[Method: POST, Route: tambahMenu]
+in APPPATH\Controllers\MenuController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->menambahData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-04 03:39:25 --> CodeIgniter\Validation\Exceptions\ValidationException: "meme_in" is not a valid rule.
+[Method: POST, Route: tambahMenu]
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 SYSTEMPATH\Validation\Validation.php(348): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('meme_in')
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('gambarMenu', 'gambarMenu', null, [...], [...], 'gambarMenu')
+ 3 APPPATH\Controllers\MenuController.php(42): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->menambahData()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-04 03:42:23 --> ErrorException: Undefined variable $meja
+[Method: GET, Route: menu]
+in APPPATH\Views\Admin\menu.php on line 130.
+ 1 APPPATH\Views\Admin\menu.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $meja', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\menu.php', 130)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/menu', [], true)
+ 5 APPPATH\Controllers\MenuController.php(15): view('Admin/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+CRITICAL - 2025-07-04 03:44:38 --> ErrorException: Undefined variable $meja
+[Method: GET, Route: menu]
+in APPPATH\Views\Admin\menu.php on line 179.
+ 1 APPPATH\Views\Admin\menu.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $meja', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\menu.php', 179)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/menu', [], true)
+ 5 APPPATH\Controllers\MenuController.php(15): view('Admin/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-04 04:17:37 --> error id menu, nama menu, harga, kategori, gambar tidak ada yang boleh kosong
+CRITICAL - 2025-07-04 04:20:58 --> ErrorException: unlink(C:\Users\Administrator\Documents\project\kasir\public/gambarMenu1751602565_a61af03a20a4c74d0a78.png): No such file or directory
+[Method: POST, Route: editMenu]
+in APPPATH\Controllers\MenuController.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\Users\\Administrator\\Documents\\project\\kasir\\public/gambarMenu1751602565_a61af03a20a4c74d0a78.png): No such file or directory', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Controllers\\MenuController.php', 118)
+ 2 APPPATH\Controllers\MenuController.php(118): unlink('C:\\Users\\Administrator\\Documents\\project\\kasir\\public/gambarMenu1751602565_a61af03a20a4c74d0a78.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MenuController->mengubahData()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
+ERROR - 2025-07-04 04:32:20 --> maaf cookie kosong
+ERROR - 2025-07-04 04:32:20 --> maaf cookie kosong
+ERROR - 2025-07-04 04:32:22 --> maaf cookie kosong
+ERROR - 2025-07-04 04:35:04 --> maaf cookie kosong
+ERROR - 2025-07-04 07:40:49 --> maaf cookie kosong
+ERROR - 2025-07-04 07:40:53 --> maaf cookie kosong
+CRITICAL - 2025-07-04 08:06:26 --> ErrorException: Undefined variable $data
+[Method: GET, Route: transaksi]
+in APPPATH\Views\Admin\transaksi.php on line 17.
+ 1 APPPATH\Views\Admin\transaksi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\transaksi.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Administrator\\Documents\\project\\kasir\\app\\Views\\Admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/transaksi', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(14): view('Admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TransaksiController->menampilkanData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Administrator\\Documents\\project\\kasir\\public\\index.php')
